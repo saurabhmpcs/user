@@ -8,7 +8,7 @@ import Button from "../../components/Button/Button";
 import "./Navbar.css";
 
 const Navbar = () => {
-  var User = null;
+  var User = JSON.parse(localStorage.getItem("profile"));
 
   return (
     <nav className="main-nav">
