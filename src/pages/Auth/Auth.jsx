@@ -35,7 +35,6 @@ const Auth = () => {
     } else {
       dispatch(login({ email, password }, navigate));
     }
-    console.log({ email, password, name });
   };
 
   return (
