@@ -44,7 +44,7 @@
 }
 
 .nav-logo {
-  padding: 5px 25px;
+  padding: 10px 25px;
 }
 
 .nav-item {
@@ -68,13 +68,12 @@
 }
 
 .navbar .navbar-1 form {
-  flex-grow: 1;
   padding: 0px 12px;
   position: relative;
 }
 
 .navbar .navbar-1 form input {
-  min-width: 90%;
+  min-width: 80%;
   margin: 0;
   padding: 8px 10px 8px 32px;
   font-size: 13px;
